@@ -49,10 +49,10 @@ module.exports = function main(str) {
     x = x.substr(0,x.length-1);
 	x = x +'\n';
 	y = y.substr(0,y.length-1);
-    y = y +'\n';
+	y = y +'\n';
 	z = z.substr(0,z.length-1);
-    z = z +'\n';	
-
+	z = z +'\n';
+	
 	return x+y+z;
 
 };
